@@ -28,9 +28,9 @@ val example = Module(
   deps = ISZ(),
   targets = ISZ(Target.Jvm),
   ivyDeps = ISZ("org.sireum.kekinian::library:"),
-  sources = ISZ((Os.path(s"${Os.fileSep}src") / "main" / "scala").string),
+  sources = ISZ((Os.path("src") / "main" / "scala").string),
   resources = ISZ(),
-  testSources = ISZ((Os.path(s"${Os.fileSep}src") / "test" / "scala").string),
+  testSources = ISZ((Os.path("src") / "test" / "scala").string),
   testResources = ISZ(),
   publishInfoOpt = None()
 )
