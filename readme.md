@@ -32,6 +32,13 @@ To try:
    cd proyek-example
    ```
 
+4. If you installed Sireum IVE using the git source distribution,
+   you can optionally publish the Slang runtime library locally:
+   
+   ```
+   build.cmd m2-lib
+   ```
+
 ## Using Sireum Command Line Interface (CLI)
 
 ### Running Scripts
