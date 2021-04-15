@@ -38,13 +38,18 @@ To try:
    ```
    build.cmd m2-lib
    ```
+   
+   Otherwise, the library will be retrieved from 
+   [jitpack.io](https://jitpack.io/#org.sireum/kekinian), which
+   may take some time the first time it is requested (and may
+   take a couple of tries).
 
 ## Using Sireum Command Line Interface (CLI)
 
 ### Running Scripts
 
 First, try running the [bin/slash-example.cmd](bin/slash-example.cmd) 
-Slash (Slang shell) script:
+Slash (Slang shell) script to test your Sireum installation:
 
 * **macOS/Linux:**
 
@@ -86,7 +91,7 @@ retrieved by:
 sireum --version
 ```
 
-The versions can be overriden by supplying some properties file similar to:
+The versions can be over-ridden by supplying some properties file similar to:
 https://github.com/sireum/kekinian/blob/master/versions.properties
 
 ### Running
@@ -135,7 +140,7 @@ Then, right-click on the file editor and select `Evaluate Worksheet`.
 
 ### Compiling
 
-To compile the source files, the `Build Project` menu item under
+To compile the source files, use the `Build Project` menu item under
 the `Build` menu in Sireum IVE.
 
 ### Running/Debugging
@@ -155,10 +160,10 @@ To test/debug the test suites in [example](example), right-click on
 ### Verifying
 
 To verify the [logika-example.sc](logika-example.sc) script, open
-the file by double-click it in the 'Project' view.
+the file by double-clicking it in the 'Project' view.
 
 Logika will automatically verify the file the first
-time the file is opened and after modification.
+time the file is opened and after each (paused) modification.
 
-To explicitly re-verify, right-click on the opened editor and
+To explicitly re-verify the file, right-click on the opened editor and
 select `Logika Check`.
