@@ -43,6 +43,10 @@ To try:
    [jitpack.io](https://jitpack.io/#org.sireum/kekinian), which
    may take some time the first time it is requested (and may
    take a couple of tries).
+   
+   You should re-publish the library locally when you upgrade 
+   Sireum to avoid retrieving the library from
+   [jitpack.io](https://jitpack.io/#org.sireum/kekinian).
 
 ## Using Sireum Command Line Interface (CLI)
 
@@ -167,3 +171,11 @@ time the file is opened and after each (paused) modification.
 
 To explicitly re-verify the file, right-click on the opened editor and
 select `Logika Check`.
+
+## More Examples
+
+* Slang runtime library project definition:
+  https://github.com/sireum/runtime/blob/master/bin/project.cmd
+  
+* Sireum project definition:
+  https://github.com/sireum/kekinian/blob/master/bin/project.cmd
