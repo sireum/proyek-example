@@ -139,8 +139,11 @@ Then open the local repository directory in Sireum IVE.
 
 To run the [script-example.sc](script-example.sc) regular Slang script,
 first open the file by double-clicking it in the 'Project' view.
+(Chose `Ignore` when asked whether to add all Ammonite standard dependencies.)
 
-Then, right-click on the file editor and select `Evaluate Worksheet`.
+Then, click on the green ▶ play icon near the top-left corner of the editor.
+Alternatively, you can run the script clicking the green ▶ play icon near the 
+"Slang Script Runner" run configuration on the top middle-right taskbar.
 
 ### Compiling
 
