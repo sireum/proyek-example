@@ -32,22 +32,6 @@ To try:
    cd proyek-example
    ```
 
-4. If you installed Sireum IVE using the git source distribution,
-   you can optionally publish the Slang runtime library locally:
-   
-   ```
-   build.cmd m2-lib
-   ```
-   
-   Otherwise, the library will be retrieved from 
-   [jitpack.io](https://jitpack.io/#org.sireum/kekinian), which
-   may take some time the first time it is requested (and may
-   take a couple of tries).
-   
-   You should re-publish the library locally when you upgrade 
-   Sireum to avoid retrieving the library from
-   [jitpack.io](https://jitpack.io/#org.sireum/kekinian).
-
 ## Using Sireum Command Line Interface (CLI)
 
 ### Running Scripts
