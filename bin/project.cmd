@@ -35,6 +35,20 @@ val example = Module(
   publishInfoOpt = None()
 )
 
-val prj = Project.empty + example
+val example2 = Module(
+  id = "example2",
+  basePath = (home / "example2").string,
+  subPathOpt = None(),
+  deps = ISZ("example"),
+  targets = ISZ(Target.Jvm),
+  ivyDeps = ISZ(),
+  sources = ISZ((Os.path("src") / "main" / "scala").string),
+  resources = ISZ(),
+  testSources = ISZ((Os.path("src") / "test" / "scala").string),
+  testResources = ISZ(),
+  publishInfoOpt = None()
+)
+
+val prj = Project.empty + example + example2
 
 println(project.JSON.fromProject(prj, T))
